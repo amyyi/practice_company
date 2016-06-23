@@ -1,0 +1,110 @@
+body{
+    font-family: 微軟正黑體;
+}
+/*header*/
+.monex_header .col-md-4{  margin-top: 1%;}
+.monex_header .col-md-4 span:nth-child(1){  margin-right: 3%;}
+.monex_header .col-md-4 span:nth-child(2){  margin-right: 15%;}
+.monex_header .col-md-4 span:nth-child(3){
+    margin-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-left: dotted 1px grey;
+    border-right: dotted 1px grey;
+}
+.monex_header .col-md-4 span:nth-child(4){
+    border-right: dotted 1px grey;
+    padding-right: 2%;
+}
+.monex_header .col-md-4 span a{
+    color: #000;
+    text-decoration: none;
+}
+.monex_header .col-md-4 span a:hover {
+    color: #28b;
+    text-decoration: none;
+}
+.monex_header .col-md-4 .col-md-10{  margin-top: 3%;}
+.monex_header .col-md-4 .col-md-10 span{  background-color: rgb(0, 86, 153); color: #fff}
+/******index_block1******/
+.mon_index_block1{
+    background: url(../img/company_bg_01.jpg)
+    center top no-repeat !important;
+    min-height: 436px;
+}
+.bg_padding{
+    position: absolute;
+    top: 43%;
+    margin-left: 18%;
+    /*left: 12%;*/
+    width:  931px;
+
+}
+.mon_nav{
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 100%;
+}
+
+/*nav*/
+.to_nav{display: none;}
+.mon_nav .menubg{
+    min-height: 46px;
+    background-color: rgb(45, 130, 199);
+    opacity: 0.7;
+    padding-bottom: 7.3%;
+    margin-bottom: 0px;
+}
+.mon_nav .menubg li{
+    list-style: none;
+    float: left;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    text-align: center;
+    min-width: 19%;
+}
+.mon_nav .menubg li:hover{
+    background: rgb(84, 199, 236);
+}
+.mon_nav .menubg li a{
+    color: #fff;
+    font-size: 16px;
+}
+.mon_nav .menubg li a:hover{
+    text-decoration: none;
+}
+.figure{  margin-right: 5%;  font-size: 1.5em;}
+/*footer*/
+.mon_footer{
+    position: relative;
+    top: 513px;/*解決重整footer怪怪的問題*/
+    background-color: rgb(51, 51, 51);
+    height: 110px;
+}
+.mon_footer_left{
+    list-style: none;
+    width: 60%;
+    float: left;
+    margin-top: 2%;
+}
+.mon_footer_left li{
+    list-style: none;
+    float: left;
+    width: 24%;
+    border-left: dotted 1px rgb(102, 102, 102);
+    padding-left: 2%;
+}
+.mon_footer_left li:last-child{  border-right: dotted 1px rgb(102, 102, 102);}
+.mon_footer_left li a{color: #fff;}
+.mon_footer_left li a:hover{color: #fff;}
+.mon_footer_right{
+    list-style: none;
+    text-align: center;
+    width: 39%;
+    float: left;
+    margin-top: 2%;
+}
+.mon_footer_right li{list-style:none;}
+.mon_footer_right li:first-child{color: #fff;font-size: 18px;}
+.mon_footer_right li:last-child{color: #fff;font-size: 5px;}
